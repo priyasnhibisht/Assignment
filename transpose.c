@@ -9,14 +9,14 @@ WAP in C  to transpose a 2D array.
 void transpose(int a[][], int rows, int cols) {
     int transposed[cols][rows];
 
-    for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
             transposed[j][i] = a[i][j];
         }
     }
     printf("Transposed Matrix:\n");
-    for (int i = 0; i < cols; ++i) {
-        for (int j = 0; j < rows; ++j) {
+    for (int i = 0; i < cols; i++) {
+        for (int j = 0; j < rows; j++) {
             printf("%d ", transposed[i][j]);
         }
         printf("\n");
