@@ -12,7 +12,7 @@ int sumOfDigits(int num) {
         return 0;
     }
 
-    return (number %10)+sumOfDigits(number / 10);
+    return (num%10)+sumOfDigits(num/ 10);
 }
 
 int main() {
