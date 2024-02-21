@@ -29,7 +29,7 @@ int main() {
 
     int l= strlen(str);
 
-    reversemstr, 0, l - 1);
+    reverse(str, 0, l - 1);
 
  
     printf("Reversed String: %s\n", str);
